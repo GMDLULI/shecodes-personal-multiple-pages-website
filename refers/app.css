@@ -116,9 +116,6 @@ p {
 }
 
 @media (max-width: 575.98px) {
-  img {
-    display: none;
-  }
   h1 {
     font-size: 35px;
     height: 10px auto;
@@ -130,6 +127,9 @@ p {
   h3 {
     font-size: 10px;
   }
+  .images {
+    display: none;
+  }
   .headings {
     font-size: 40px;
   }
@@ -140,5 +140,9 @@ p {
 
   .email-link {
     font-size: 18px;
+  }
+
+  .about-images {
+    max-width: 70%;
   }
 }
